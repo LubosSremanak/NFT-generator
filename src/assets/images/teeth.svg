@@ -1,0 +1,14 @@
+<g>
+  <rect transform="translate(410,0)" width="350" height="500"/>
+  <rect transform="translate(810,0)" width="350" height="500"/>
+  <rect transform="translate(1210,0)" width="350" height="500"/>
+  <rect transform="translate(1610,0)" width="350" height="500"/>
+  <rect transform="translate(2010,0)" width="350" height="500"/>
+
+  <rect width="350" height="500"/>
+  <rect transform="translate(100,-1000)" width="350" height="500"/>
+  <rect transform="translate(500,-1000)" width="350" height="500"/>
+  <rect transform="translate(900,-1000)" width="350" height="500"/>
+  <rect transform="translate(1300,-1000)" width="350" height="500"/>
+  <rect transform="translate(1710,-1000)" width="350" height="500"/>
+</g>

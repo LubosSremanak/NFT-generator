@@ -1,0 +1,23 @@
+<div class="panel">
+  <div *ngIf="progress" class="progress" [ngStyle]="{width:this.progress+'%'}">
+  </div>
+  <div class="input">
+    <input [(ngModel)]="images" type="number">
+  </div>
+  <button color="accent" (click)="regenerate()" mat-mini-fab>
+    <mat-icon>refresh</mat-icon>
+  </button>
+  <button color="accent" (click)="save()" mat-mini-fab>
+    <mat-icon>save</mat-icon>
+  </button>
+  <button color="accent" (click)="generate()" mat-mini-fab>
+    <mat-icon>add_circle</mat-icon>
+  </button>
+  <span *ngIf="progress">{{progress.toFixed(0)}}%</span>
+</div>
+<div class="images">
+
+  <ng-container #container>
+
+  </ng-container>
+</div>

@@ -1,0 +1,6 @@
+<g>
+  <circle cy="50" cx="100" r="100"></circle>
+  <line x1="100" y1="50" x2="300" y2="50" stroke-width="50"/>
+  <line x1="700" y1="50" x2="900" y2="50" stroke-width="50"/>
+  <circle transform="translate(900)" cy="50" cx="50" r="100"></circle>
+</g>

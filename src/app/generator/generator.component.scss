@@ -1,0 +1,27 @@
+.nft {
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  transition: transform linear 250ms, box-shadow ease 250ms;
+
+  &:hover {
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+    transition: transform linear 250ms, filter ease 250ms;
+    transform: scale(1.02);
+  }
+
+}
+
+::ng-deep {
+
+}
+
+.disabled {
+  filter: saturate(0);
+
+  &:hover {
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2)) saturate(0)!important;
+    transition: transform linear 250ms, filter ease 250ms;
+    transform: scale(1.02);
+  }
+}

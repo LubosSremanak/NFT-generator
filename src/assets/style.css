@@ -1,0 +1,230 @@
+
+#boar--id {
+  width: 300px;
+  height: 400px;
+  background-color: --background-color;
+  padding: 20px 40px;
+  border-radius: 5px;
+  shape-rendering: geometricPrecision;
+}
+
+#group--id {
+  transform: scale(0.7) translate(22%, 20%);
+}
+
+#boar {
+  /*animation: live-card alternate infinite 5s linear;*/
+}
+
+
+#head--id {
+  fill: black;
+  fill-rule: evenodd;
+  stroke-width: 5px !important;
+  transform: translate(10%, 12%) scale(0.08, 0.08);
+}
+
+#face--id {
+  fill: --face-color;
+  transform: translate(10%, 92%) scale(0.08, -0.08);
+}
+
+#mouth--id {
+  fill: #ec0c0c;
+  transform: translate(39.5%, 89%) scale(0.09, -0.09);
+}
+
+#teeth--id {
+  fill: --teeth-color;
+  stroke: #000000;
+  stroke-width: 50px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transform: translate(39.5%, 82%) scale(0.08, -0.08);
+}
+
+
+#golden-teeth--id {
+
+}
+
+#eye-color1--id, #eye-color2--id {
+  fill: --eyes-color;
+  stroke: black;
+  stroke-width: --eyes-radius;
+
+}
+
+#tusk-color1--id, #tusk-color2--id {
+  fill: --tusk-color;
+}
+
+#ear-color1--id, #ear-color2--id {
+  fill: --ears-color;
+}
+
+#eye-inner-color1--id, #eye-inner-color2--id {
+  fill: --eyes-inner-color;
+}
+
+#eye-color1--id {
+
+  transform: --eye-color1-transform;
+}
+
+#eye-color2--id {
+
+  transform: --eye-color2-transform;
+}
+
+#eye1--id, #eye-inner-color1--id {
+
+  transform: --eye1-transform;
+}
+
+#eye2--id, #eye-inner-color2--id {
+
+  transform: --eye2-transform;
+
+}
+
+#eyebrow1--id {
+  transform: translate(48%, --eyebrow1Y) scale(0.065, -0.065) scaleX(-1);
+}
+
+#eyebrow2--id {
+  transform: translate(52%, --eyebrow2Y) scale(0.065, -0.065);
+}
+
+#ear-color1--id {
+  transform: translate(22.6%, 18%) rotate(18deg) scale(0.145, -0.17);
+}
+
+#ear-color2--id {
+  transform: translate(78%, 17%) scale(0.16, -0.16) scaleX(-1);
+}
+
+#ear1--id {
+
+  transform: translate(5%, 28%) scale(0.07, -0.07);
+}
+
+#ear2--id {
+
+  transform: translate(95%, 28%) scale(0.07, -0.07) scaleX(-1);
+}
+
+#tusk1--id, #tusk-color1--id {
+  transform: translate(43%, 47%) rotate(-180deg) --tusk-size1 scaleX(1);
+}
+
+#tusk2--id, #tusk-color2--id {
+  transform: translate(55.5%, 47.2%) rotate(180deg) --tusk-size2 scaleX(-1);
+}
+
+#nose--id {
+  transform: translate(33.5%, 79%) scale(0.0042, -0.0039);
+}
+
+#teeth--id :nth-child(1) {
+  fill: --goldenTeeth1;
+}
+
+#teeth--id :nth-child(2) {
+  fill: --goldenTeeth2;
+}
+
+#teeth--id :nth-child(3) {
+  fill: --goldenTeeth3;
+}
+
+#teeth--id :nth-child(4) {
+  fill: --goldenTeeth4;
+}
+
+#teeth--id :nth-child(5) {
+  fill: --goldenTeeth5;
+}
+
+#teeth--id :nth-child(6) {
+  fill: --goldenTeeth6;
+}
+
+#teeth--id :nth-child(7) {
+  fill: --goldenTeeth7;
+}
+
+#teeth--id :nth-child(8) {
+  fill: --goldenTeeth8;
+}
+
+#teeth--id :nth-child(9) {
+  fill: --goldenTeeth9;
+}
+
+#teeth--id :nth-child(10) {
+  fill: --goldenTeeth10;
+}
+
+#cross--id {
+  transform: translate(29%, 44%) scale(0.7);
+}
+
+#tear--id {
+  transform: translate(61%, 49%) scale(0.0065) scaleY(-1);
+}
+
+#bull-ring--id {
+  fill: yellow;
+  stroke: yellow;
+  stroke-width: 400px;
+  transform: translate(44.5%, 75%) scale(0.017) scaleY(-1);
+}
+
+#ear-piercing--id {
+  fill: yellow;
+  stroke: yellow;
+  transform: translate(68%, 7%) rotate(45deg) scale(0.25) scaleY(-1);
+}
+
+#hat--id {
+  display: --hat-on;
+  fill: --hat-color;
+  stroke: black;
+  stroke-width: 200px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transform: translate(22%, 54%) rotate(-25deg) scale(0.08, -0.08);
+}
+
+#ear-color1--id, #ear-color2--id, #ear1--id, #ear2--id, #ear-piercing--id {
+  display: --hat-of;
+}
+
+#airpod1--id {
+  display: --hat-of;
+  transform: translate(20%, 29%) rotate(-8deg) scale(0.04, -0.04);
+}
+
+#airpod2--id {
+  display: --hat-of;
+  transform: translate(80%, 29%) rotate(8deg) scale(-0.04, -0.04);
+}
+
+#glasses--id {
+  fill: --glasses-color;
+  stroke: black;
+  stroke-width: 40px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transform: translate(20.5%, 58%) scale(0.12, -0.10);
+}
+
+@keyframes live-card {
+  from {
+    filter: saturate(100%);
+  }
+  to {
+    filter: saturate(25%);
+  }
+}
